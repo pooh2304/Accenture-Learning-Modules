@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobilestore>
+	<mobile>
+		<brand>Nokia</brand>
+		<os>Symbian</os>
+		<model>C6</model>
+		<ram>1gb</ram>
+		<internal>8gb</internal>
+	</mobile>
+	<mobile>
+		<brand>Samsung</brand>
+		<os>Android</os>
+		<model>Galaxy</model>
+		<ram>2gb</ram>
+		<internal>8gb</internal>
+	</mobile>
+	<mobile>
+		<brand>Sony</brand>
+		<os>Android</os>
+		<model>Experia</model>
+		<ram>512mb</ram>
+		<internal>16gb</internal>
+	</mobile>
+</mobilestore>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="mobilestore">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="mobile" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="brand"/>
+              <xs:element type="xs:string" name="os"/>
+              <xs:element type="xs:string" name="model"/>
+              <xs:element type="xs:string" name="ram"/>
+              <xs:element type="xs:string" name="internal"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
