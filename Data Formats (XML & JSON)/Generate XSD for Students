@@ -1,0 +1,85 @@
+Generate XSD for the following XML.
+XYZ School wants to store the details of students in an xml file. The following scenario helps in designing the XML document.
+Here StudentList  is the root tag. StudentList contains the entry of each student with rollno, name, age, address and department.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<StudentList  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="StudentList.xsd">
+    <Student rollno="2017CSE0055">
+        <name>
+            <firstname>Savitha</firstname>
+        </name>
+        <age>20</age>
+        <address>
+            <doorno>35</doorno>
+            <street>NRG Street</street>
+            <city>coimbatore</city>
+            <pincode>641038</pincode>
+        </address>
+        <department>CSE</department>
+    </Student>
+    <Student rollno="2017ECE1050">
+        <name>
+            <firstname>Vinitha</firstname>
+        </name>
+        <age>21</age>
+        <address>
+            <doorno>9</doorno>
+            <street>Randy Street</street>
+            <city>Chennai</city>
+            <pincode>600025</pincode>
+        </address>
+        <department>ECE</department>
+    </Student>
+    <Student rollno="2017EEE2044">
+        <name>
+            <firstname>Steve</firstname>
+              <lastname> Johnson </lastname>
+        </name>
+        <age>19</age>
+        <address>
+            <doorno>15</doorno>
+            <street>CMH Road</street>
+            <city>Bangalore</city>
+            <pincode>560039</pincode>
+        </address>
+        <department>EEE</department>
+    </Student>
+</StudentList>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="StudentList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Student" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="firstname"/>
+                    <xs:element type="xs:string" name="lastname" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:byte" name="age"/>
+              <xs:element name="address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:byte" name="doorno"/>
+                    <xs:element type="xs:string" name="street"/>
+                    <xs:element type="xs:string" name="city"/>
+                    <xs:element type="xs:int" name="pincode"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="department"/>
+            </xs:sequence>
+            <xs:attribute type="xs:string" name="rollno" use="optional"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
