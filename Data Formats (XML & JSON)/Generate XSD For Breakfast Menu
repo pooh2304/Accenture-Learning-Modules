@@ -1,0 +1,39 @@
+Generate XSD for the given XML document.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<breakfast_menu>
+    <food>
+        <name>Turfle waffles</name>
+        <price>$5.95</price>
+        <description>This two turfle which has 2 famous product  is with real choco and maple syrup</description>
+        <calories>650</calories>
+    </food>
+    <food>
+        <name>Strawberry Belgian Waffles</name>
+        <price>$24.6</price>
+        <description>Light Belgian waffles covered with strawberries and whipped cream</description>
+        <calories>900</calories>
+    </food>
+    <food>
+        <name>Berry-Berry Belgian Waffles</name>
+        <price>$4.78</price>
+        <description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
+        <calories>400</calories>
+    </food>
+    <food>
+        <name>Fried Toast</name>
+        <price>$7.68</price>
+        <description>Thick slices made from our homemade wheat dough bread</description>
+        <calories>250</calories>
+    </food>
+    <food>
+        <name>Homestyle Breakfast</name>
+        <price>$7.95</price>
+        <description>Two eggs, bacon or sausage, toast, and England popular  hash browns</description>
+        <calories>1500</calories>
+    </food>
+</breakfast_menu>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
