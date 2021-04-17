@@ -1,0 +1,78 @@
+Generate XSD for the following XML document.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE  hotels  SYSTEM "hotel.dtd"> -->
+<hotels>
+    <hotel>
+        <ID>1</ID>
+        <Name> TAJ GANJ </Name>
+        <Stars>3</Stars>
+        <Facilities>Restaurant,Parking,Internet</Facilities>
+        <Address>Taj Ganj,FFatehabad Road Agra Uttar Pradesh 282001</Address>
+        <Type>budget</Type>
+        <Available>true</Available>
+    </hotel>
+    <hotel>
+        <ID>2</ID>
+        <Name> TAJ EXOTICA </Name>
+        <Stars>5</Stars>
+        <Facilities>Indian therapies,Yoga and meditation,Spaindulges,Parking</Facilities>
+        <Address>CalwaddoBenaulim, Salcete Goa 403716</Address>
+        <Type>luxury</Type>
+        <Available>false</Available>
+    </hotel>
+    <hotel>
+        <ID>3</ID>
+        <Name> VIVANTA by TAJ </Name>
+        <Stars>3</Stars>
+        <Facilities>Parking,Restaurant,Internet,Chinese Restaurant, Party Lawn</Facilities>
+        <Address>105, Race Course Road Coimbatore TamilNadu 641018</Address>
+        <Type>medium luxury</Type>
+        <Available>true</Available>
+    </hotel>
+    <hotel>
+        <ID>4</ID>
+        <Name> TAJ DECCAN </Name>
+        <Stars>4</Stars>
+        <Facilities>Parking,Fitnesscenter,Meetingrooms,Private dining for party</Facilities>
+        <Address>Road No. 1, Banjara Hills Hyderabad Telangana State 500034</Address>
+        <Type>Budget</Type>
+        <Available>true</Available>
+    </hotel>
+    <hotel>
+        <ID>5</ID>
+        <Name> TAJ BEKAL RESORT </Name>
+        <Stars>4</Stars>
+        <Facilities>Spa ,Internet ,Yoga and meditation,parking,internet</Facilities>
+        <Address>Kappil Beach Kasargod Kerala 671319</Address>
+        <Type>Luxury</Type>
+        <Available>false</Available>
+    </hotel>
+</hotels>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="hotels">
+    <xs:annotation>
+      <xs:documentation>&lt;!DOCTYPE  hotels  SYSTEM "hotel.dtd"></xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="hotel" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:byte" name="ID"/>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element type="xs:byte" name="Stars"/>
+              <xs:element type="xs:string" name="Facilities"/>
+              <xs:element type="xs:string" name="Address"/>
+              <xs:element type="xs:string" name="Type"/>
+              <xs:element type="xs:string" name="Available"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
