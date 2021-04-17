@@ -1,0 +1,49 @@
+Generate XSD for the following XML.
+XYZ organization wants to store the details of persons in an xml file. The following scenario helps in designing the XML document.
+Here PersonList  is the root tag. PersonList contains the entry of each person with adhaarno, name, age and address.
+
+<?xml version="1.0"  encoding="UTF-8"?>
+<PersonList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PersonList.xsd">
+    <Person>
+        <adhaarno>414356782345</adhaarno>
+        <name>
+            <firstname>Zeenath</firstname>
+        </name>
+        <age>28</age>
+        <address>
+            <doorno>33</doorno>
+            <street>Raidu Street</street>
+            <city>coimbatore</city>
+            <pincode>641039</pincode>
+        </address>
+    </Person>
+    <Person Category="seniorcitizen">
+        <adhaarno>414356782345</adhaarno>
+        <name>
+            <firstname>Simon</firstname>
+        </name>
+        <age>75</age>
+        <address>
+            <doorno>7</doorno>
+            <street>Raja Street</street>
+            <city>Chennai</city>
+            <pincode>600005</pincode>
+        </address>
+    </Person>
+    <Person>
+        <adhaarno>414356782345</adhaarno>
+        <name>
+            <lastname>Varma</lastname>
+        </name>
+        <age>25</age>
+        <address>
+            <doorno>25</doorno>
+            <street>cox street</street>
+            <city>Bangalore</city>
+            <pincode>560025</pincode>
+        </address>
+    </Person>
+</PersonList>
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
