@@ -1,0 +1,5 @@
+Existing permission for file emp.txt is rw- --- ---. Assign excutable permission to others and add exceution permission for group and user using symbolic notation.
+
+
+chmod ug+x emp.txt
+chmod o=x emp.txt
