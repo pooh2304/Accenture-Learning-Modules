@@ -1,0 +1,3 @@
+What is the format in date command to display the current date as "DATE: 27/11/17.
+
+date +'DATE: %d/%m/%y'

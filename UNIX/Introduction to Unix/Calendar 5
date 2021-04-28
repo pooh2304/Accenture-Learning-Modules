@@ -1,0 +1,3 @@
+Write a command to display the previous, current and next month calendar of the year 2015 December.
+
+cal 12 2015 -A1 -B1

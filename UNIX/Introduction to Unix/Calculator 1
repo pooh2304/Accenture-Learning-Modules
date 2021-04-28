@@ -1,0 +1,6 @@
+What is the command to perform all the arithmetic operations using basic calculator.
+Note: Specify only the command.
+
+read a;
+read b;
+echo $((a+b));

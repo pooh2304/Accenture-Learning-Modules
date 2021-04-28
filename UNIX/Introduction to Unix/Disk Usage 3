@@ -1,0 +1,3 @@
+What is the command to display the total disk usage of the current directory?
+
+du -s

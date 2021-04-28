@@ -1,0 +1,3 @@
+Write a command to display AM or PM in lower case.
+
+date +%P
