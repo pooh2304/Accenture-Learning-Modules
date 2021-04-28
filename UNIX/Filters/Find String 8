@@ -1,0 +1,4 @@
+Which command will display the lines in the file teknoscript.txt that are not comment lines( #)?
+
+
+grep -v ^# teknoscript.txt
