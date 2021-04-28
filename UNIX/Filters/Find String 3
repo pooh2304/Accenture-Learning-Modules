@@ -1,0 +1,4 @@
+Display the lines from the file teknoscript.txt  that contain the string "lin" along with its line numbers.
+
+
+grep -n lin teknoscript.txt
