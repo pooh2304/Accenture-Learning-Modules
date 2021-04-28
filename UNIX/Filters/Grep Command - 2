@@ -1,0 +1,4 @@
+Write a command to list all the lines from the file “employee.txt” which does not end with semicolon.
+
+
+grep -v ';$' employee.txt
