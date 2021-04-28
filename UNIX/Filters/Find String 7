@@ -1,0 +1,4 @@
+Use the grep command to display all lines in teknoscript.txt  that start with echo.
+
+
+grep ^echo teknoscript.txt
