@@ -1,0 +1,4 @@
+Write a command to redirect the number of lines of a file "input.txt" to the file "output.txt".
+
+
+wc -l "input.txt">"output.txt"
