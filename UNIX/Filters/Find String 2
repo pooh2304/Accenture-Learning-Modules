@@ -1,0 +1,4 @@
+Display the lines from the file teknoscript.txt  that  do not contain the string lin.
+
+
+grep -v lin teknoscript.txt
