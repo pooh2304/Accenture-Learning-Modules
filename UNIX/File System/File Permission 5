@@ -1,0 +1,4 @@
+Existing permission for file student.txt is rw- --- --- .change this permission to rw- rw- rw- using octal notation or symbolic notation.
+
+
+chmod go+rw student.txt
