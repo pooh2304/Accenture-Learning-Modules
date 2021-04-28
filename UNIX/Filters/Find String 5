@@ -1,0 +1,4 @@
+Display the lines from the file teknoscript.txt that end with h.
+
+
+grep 'h$' teknoscript.txt
