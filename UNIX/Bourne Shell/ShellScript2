@@ -1,0 +1,48 @@
+Write a shell script to find the largest among three numbers. Get user inputs and display the result. 
+
+Sample Input 1:
+10 
+20
+30
+
+Sample Output 1:
+30 is largest number
+
+Sample Input 2:
+10 
+10
+10
+
+Sample Output 2:
+All the three numbers are equal
+
+Sample Input 3:
+10 
+10
+ 1
+
+Sample Output 3:
+I cannot figure out which number is largest
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+read num1
+read num2
+read num3
+if [ $num1 == $num2 -a $num1 == $num3 ]
+then
+ echo "All the three numbers are equal"
+elif [ $num1 == $num2 -o $num1 == $num3 -o $num2 == $num3 ]
+then
+ echo "I cannot figure out which number is largest"
+else
+ if [ $num1 -gt $num2 -a $num1 -gt $num3 ]
+ then
+   echo "$num1 is largest numer"
+ elif [ $num2 -gt $num1 -a $num2 -gt $num3 ]
+ then
+   echo "$num2 is largest number"
+ else
+   echo "$num3 is largest number"
+ fi
+fi
