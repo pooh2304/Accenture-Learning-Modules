@@ -1,0 +1,30 @@
+Write a shell script to change the read and write permission of the file to read,write and execute permission for all.
+
+If file exists display as,
+"File Exists!"
+else display as,
+"File does not Exist"
+If file has read and write permission display as,
+"File Permission has been changed"
+Assume file name is given as command line argument.
+
+Sample Output1:
+File Exists!
+File Permission has been changed
+
+Sample Output2:
+File does not Exist
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+for f in ${*}
+do
+if [ -e $f ]; then
+    echo "File Exists!"
+    if [ -w $f ] && [ -r $f ]; then
+        chmod a=rwx $f && echo "File Permission has been changed"
+        fi
+    else
+        echo "File does not Exist" && exit
+    fi
+    done
