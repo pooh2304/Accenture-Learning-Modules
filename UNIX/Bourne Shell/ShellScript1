@@ -1,0 +1,13 @@
+Write a shell script to add two numbers. Get inputs from user and display the sum. 
+
+Sample Input / Output:
+1
+2
+Sum of 1 and 2 is 3
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+read a
+read b
+sum=$(($a + $b))
+echo "Sum of $a and $b is $sum"
