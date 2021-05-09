@@ -1,3 +1,32 @@
+/*
+
+String – Replace Characters 
+Write a recursive function 'public static String replace(String str,char from,char to) ' that changes all occurrences of 'from' in ‘str’ to ‘to’.
+For example, if str were "codebook", and from = 'o' and to = 'e', then, str would become "cedebeek".
+
+Function Definitions:
+public static String replace(String str, char from, char to)
+
+Problem Requirements:
+Keyword     Min Count      Max Count
+for         0              0
+while       0              0
+
+Note: Create the main() inside the class 'ReplaceDriver'
+
+Refer sample input and output for formatting specifications.
+
+Sample Input and Output :
+Enter the string
+Asia
+Enter the character to be replaced
+a
+Enter the character to be replaced with
+i
+The modified string is Asii
+
+*/
+
 import java.util.Scanner;
 
 public class ReplaceDriver {
