@@ -1,3 +1,36 @@
+/*
+
+Write a program to implement Quick Sort Algorithm.
+
+Requirements :
+public static void quickSort(int[] ar,int start,int end)
+public static int partition(int[] ar,int start,int end)
+Implement the main() inside the class : 'QuickSort'
+
+Sample Input and Output 1:
+How many elements?8
+Enter array elements:2
+1
+5
+3
+4
+8
+7
+6
+Array after sorting:1 2 3 4 5 6 7 8
+
+
+Sample Input and Output 2:
+How many elements?0
+Invalid Input
+
+
+Sample Input and Output 3:
+How many elements?-1
+Invalid Input
+
+*/
+
 import java.util.Scanner;
 
 public class QuickSort { 
