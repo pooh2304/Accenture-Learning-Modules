@@ -1,8 +1,7 @@
 /*
 
-Jane is a programmer and she used to participate in various coding contests. Since she is very much interested in data
-structure, she planned to participate in a contest for data structures conducted by 'Secrets of Champions'.
-In that contest, she is asked to write a program in Java to perform following operations:
+Jane is a programmer and she used to participate in various coding contests. Since she is very much interested in data structure, she planned to participate in a contest for 
+data structures conducted by 'Secrets of Champions'. In that contest, she is asked to write a program in Java to perform following operations:
 
 Define a Class with following format:
 class Node
