@@ -1,3 +1,47 @@
+/*
+
+Rose participates in an online gaming contest, where she is asked to code logic in Java to count the number of occurrences of a given element in a given linked list using 
+recursion. Help Rosy to perform the task.  Check the sample input and output statements for clarifications.
+
+Note: Implement the main() inside the class 'ListDriver.java'
+
+Sample Input/Output 1: [Values given in bold represents the input]
+Enter the size of the list: 7
+1 7 2 3 2 9 2
+
+Printing the list:
+1 7 2 3 2 9 2
+
+Enter the key to find it's occurrence: 2
+
+2 occurs for 3 times.
+
+
+Sample Input/Output 2:
+Enter the size of the list: 5
+1 2 3 4 5
+
+Printing the list:
+1 2 3 4 5
+
+Enter the key to find it's occurrence: 6
+
+6 occurs for 0 times.
+
+
+Sample Input/Output 3:
+Enter the size of the list: 0
+
+Invalid Input
+
+
+Sample Input/Output 4:
+Enter the size of the list: -5
+
+Invalid Input
+
+*/
+
 import java.util.Scanner;
 
 class ListDriver { 
