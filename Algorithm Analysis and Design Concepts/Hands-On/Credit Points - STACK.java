@@ -1,12 +1,16 @@
 /*
 
-ShopClue is an online shopping platform and it is distributing gift vouchers to its esteemed users. The voucher can be redeemed by providing a fixed amount of shopping credit points.  Each credit point is sent by a user one by one. Since there is a huge rush of people you are required to manage the users on the basis of first come first serve.  To make this process easier, you are allowed to serve K no. of people at one time.  You are given an array where you can store the credit points of each user on first come first serve basis.  You can serve K people at a given point of time.  Finally you need to display the credits details of unserved people.  If all users are served at a time, then print “0 users to serve”
+ShopClue is an online shopping platform and it is distributing gift vouchers to its esteemed users. The voucher can be redeemed by providing a fixed amount of shopping credit
+points.  Each credit point is sent by a user one by one. Since there is a huge rush of people you are required to manage the users on the basis of first come first serve.  
+To make this process easier, you are allowed to serve K no. of people at one time.  You are given an array where you can store the credit points of each user on first come 
+first serve basis.  You can serve K people at a given point of time.  Finally you need to display the credits details of unserved people.  If all users are served at a time, 
+then print “0 users to serve”.
 
-Input Format
+Input Format:
 The first input is the no. of users
 The second input is the credit points of each user.
 
-Output Format
+Output Format:
 Output shows the unserved users credit points.
 If all users are served, then print “0 users to serve”
 If no. of users are 0 or less than 0 or greater than 1000 then print “Invalid no. of users”
@@ -17,7 +21,7 @@ Constraints:
 1<=a[i]<=100
 1<=k<=n
 
-Note: Create the main() function inside the class "ShopMain"
+Note: Create the main() function inside the class "ShopMain".
 
 Sample Input 1:
 Enter the no. of users:5
