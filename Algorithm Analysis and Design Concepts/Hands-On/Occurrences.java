@@ -1,14 +1,13 @@
 /*
 
-Given a single linked list and an integer x your task is to complete the function deleteAllOccurences which deletes all
-occurrences of a key x present in the linked list. The function takes two arguments: the head of the linked list and an
-integer x. The function should return the head of the modified linked list.
+Given a single linked list and an integer x your task is to complete the function deleteAllOccurences which deletes all occurrences of a key x present in the linked list. 
+The function takes two arguments: the head of the linked list and an integer x. The function should return the head of the modified linked list.
 
 Note: Implement the main() inside the class 'DeleteMain'
 
 Input:
-The first line of input contains an integer N denoting the no of elements of the linked list. Then in the next line are
-N space separated values of the linked list. The third line of each test case contains an integer x.
+The first line of input contains an integer N denoting the no of elements of the linked list. Then in the next line are N space separated values of the linked list. 
+The third line of each test case contains an integer x.
 
 Output:
 The output for each test case will be the space separated value of the returned linked list.
