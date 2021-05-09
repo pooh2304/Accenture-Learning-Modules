@@ -1,3 +1,45 @@
+/*
+
+Implement Stack using recursion and reverse the stack content. Stack should be represented using a linked list. Generate linked list in an ordered set of data elements, 
+each containing a link to its successor.
+
+Requirements:
+class Node
+{
+    int value;
+   Node next;
+};
+
+int createStack();
+void displayStack();
+void stackReverse();
+
+Note: Implement the main() inside the class 'StackDriver'
+
+Sample Input/Output 1: [Values given in bold represents the input]
+Enter length of List: 3                                                                                                                                       
+Elements in Stack                                                              
+1 2 3                                                                                                                                                                                    
+Elements in the stack after reversal                                           
+3 2 1 
+
+Note: In the above sample the input provided by the user is 3 which represents "length of List" 
+
+
+Sample Input/Output 2:
+Enter length of List: 5                                                                                                                                      
+Elements in Stack                                                              
+1 2 3 4 5                                                                                                                                                                                   
+Elements in the stack after reversal                                           
+5 4 3 2 1
+
+
+Sample Input/Output 3:
+Enter length of List: -4
+Invalid Length
+
+*/
+
 import java.util.Stack;
 import java.util.Scanner;
 
