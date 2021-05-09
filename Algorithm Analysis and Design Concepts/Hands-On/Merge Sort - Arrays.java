@@ -1,3 +1,37 @@
+/*
+
+Implement Merge Sort using arrays. Apply Divide and Conquer algorithm design strategy .It divides input array into two halves until each half contains single element and then
+merges these two sorted halves.
+
+Note:
+If the size of the array is less than or equal to 0 then print "Invalid array size" and terminate the program.
+Implement the main() inside the class 'MergeSortDriver'
+
+Functions to be used:
+public static void merge()  -   function is used for merging two halves.
+public static void mergeSort(int[] arr, int l, int r)    -  'l' represents left index and 'r' represents the right index of the sub-array of 'arr' to be sorted.
+
+Sample Input/Output 1:
+Enter the size of an array:
+5                                                                                                                      
+Enter the elements:
+3                                                            
+1                                                                               
+2                                                                               
+8                                                                               
+6                                                                               
+Given array is                                                                  
+3 1 2 8 6                                                                                                                                                 
+Sorted array is                                                                 
+1 2 3 6 8    
+
+
+Sample Input/Output 2:
+Enter the size of an array:0                                                                                                      
+Invalid array size
+
+*/
+
 import java.util.*;
 
 class MergeSortDriver {
