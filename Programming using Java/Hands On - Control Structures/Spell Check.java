@@ -1,7 +1,7 @@
 /*
 
-Ruya’s teacher gave her an assignment to practice the spelling of “RAINBOW”. Ruya’s mother helped her in
-doing this by spelling each letter as Ruya wrote it in her notebook. If Ruya writes wrong spelling her mother should say "The spelling is wrong"
+Ruya’s teacher gave her an assignment to practice the spelling of “RAINBOW”. Ruya’s mother helped her in doing this by spelling each letter as Ruya wrote it in her 
+notebook. If Ruya writes wrong spelling her mother should say "The spelling is wrong"
 
 Sample Input 1:
 Enter the first letter:R
