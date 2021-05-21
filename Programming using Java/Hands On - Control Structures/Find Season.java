@@ -1,6 +1,7 @@
 /*
 
-Reaya's teacher has asked her to prepare well for the lesson on seasons. When her teacher tells a month, she needs to say the season corresponding to that month. Write a program to solve the above task.
+Reaya's teacher has asked her to prepare well for the lesson on seasons. When her teacher tells a month, she needs to say the season corresponding to that month. Write a 
+program to solve the above task.
     Spring - March to May,
     Summer - June to August,
     Autumn - September to November and,
