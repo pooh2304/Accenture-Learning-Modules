@@ -1,6 +1,7 @@
 /*
 
-Given a year, check if the year is leap year or not. If yes, the output should be “Leap Year”.  Else output should be “Not a Leap Year”.  The input should be a positive four digit number.  Else,  the output should be “Invalid Year”.
+Given a year, check if the year is leap year or not. If yes, the output should be “Leap Year”. Else output should be “Not a Leap Year”. The input should be a positive four 
+digit number.  Else,  the output should be “Invalid Year”.
 
 Sample Input  1 :
 Enter the Year
