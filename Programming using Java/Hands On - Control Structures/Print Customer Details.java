@@ -1,6 +1,7 @@
 /*
 
-Help Mr.Ben who is a programmer, in developing a registration form on console. Customers will not just input data, but also view the details once he/she finishes the registration.
+Help Mr.Ben who is a programmer, in developing a registration form on console. Customers will not just input data, but also view the details once he/she finishes the 
+registration.
 
 Sample Input 1:
 Enter your name:Jany
