@@ -1,6 +1,7 @@
 /*
 
-Ram is very weak in converting the numbers into months. But his friends often tease him by asking him to do that. To solve his problem a close friend of him, suggested to meet IIT students, who were very good at programming. Help ram to resolve his problem.
+Ram is very weak in converting the numbers into months. But his friends often tease him by asking him to do that. To solve his problem a close friend of him, suggested to 
+meet IIT students, who were very good at programming. Help ram to resolve his problem.
 Note :
     Range of inputs is 1 to 12.
     If the input given is beyond the range display error message as given in the sample output.
