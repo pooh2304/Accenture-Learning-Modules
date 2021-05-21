@@ -1,8 +1,8 @@
 /*
 
-Steeve is currently working in a job portal. His mode of work is, store the registration details like name, qualification, age,
-phone number, email id and no of years of experience if any of a job seeker. The system will register all the details given and
-save it in the portal. Implement the scenario and display the output as shown in the sample.
+Steeve is currently working in a job portal. His mode of work is, store the registration details like name, qualification, age, phone number, email id and no of years of 
+experience if any of a job seeker. The system will register all the details given andsave it in the portal. Implement the scenario and display the output as shown in the 
+sample.
 
 Sample Input 1:
 Enter your name:Steeve
