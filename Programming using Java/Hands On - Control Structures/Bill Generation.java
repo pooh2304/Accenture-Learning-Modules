@@ -1,6 +1,6 @@
 /*
 
-Tom went to a movie with his friends in a multiplex theatre and during  break time he bought pizzas, puffs and cool drinks. Consider   the following prices :
+Tom went to a movie with his friends in a multiplex theatre and during break time he bought pizzas, puffs and cool drinks. Consider the following prices :
     Rs.100/pizza
     Rs.20/puffs
     Rs.10/cooldrink
