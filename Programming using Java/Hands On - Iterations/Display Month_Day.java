@@ -1,6 +1,8 @@
 /*
 
-Maheer wanted to check his son with names of month and days of the week. Maheer will choose whether his son has to display the names of month or day, If the choice is 1, he has to display the names of the month and if the choice is 2, he has to display the days of the week. This has to continue until Maheer chooses 3. Help him in displaying the names as per his father’s choice.
+Maheer wanted to check his son with names of month and days of the week. Maheer will choose whether his son has to display the names of month or day, If the choice is 1,
+he has to display the names of the month and if the choice is 2, he has to display the days of the week. This has to continue until Maheer chooses 3. Help him in 
+displaying the names as per his father’s choice.
 
 Note: Do not use System.exit
 

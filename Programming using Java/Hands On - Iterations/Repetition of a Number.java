@@ -1,6 +1,7 @@
 /*
 
-Pinky’s mom provides Pinky  with a number  and a key digit.  She wants Pinky to find out how many times that key digit appears in that number.  Help Pinky to do that by writing a program.
+Pinky’s mom provides Pinky  with a number  and a key digit.  She wants Pinky to find out how many times that key digit appears in that number.  Help Pinky to do that by 
+writing a program.
 
 Sample Input 1:
 Enter the number  16466
