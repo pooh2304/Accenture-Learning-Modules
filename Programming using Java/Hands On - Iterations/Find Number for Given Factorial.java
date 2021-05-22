@@ -5,7 +5,9 @@ to tell him that number is a factorial of which number.
 
 Example : If Tom provides the number as 120, the student should answer as 5 because 5! = 120.
 
-Help the student by writing a program to do this.  Note that the  input should be a number greater than zero.  If the input is less than or equal to zero, the output should be “Invalid Input”.  Also, if the input provided is not exactly the factorial of a number,  say, the input provided is 122, which is not a perfect factorial of a number, it should return “Sorry. The given number is not a perfect factorial”.
+Help the student by writing a program to do this.  Note that the  input should be a number greater than zero.  If the input is less than or equal to zero, the output 
+should be “Invalid Input”.  Also, if the input provided is not exactly the factorial of a number,  say, the input provided is 122, which is not a perfect factorial of a 
+number, it should return “Sorry. The given number is not a perfect factorial”.
 
 Sample Input 1 :
 5040
