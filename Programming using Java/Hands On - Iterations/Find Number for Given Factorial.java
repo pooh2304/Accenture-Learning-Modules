@@ -1,6 +1,7 @@
 /*
 
-Tom teaches his student to find the factorial of a number.  He wanted to test the understanding of the student.  For that, he provides a number.  He wants the students to tell him that number is a factorial of which number.
+Tom teaches his student to find the factorial of a number.  He wanted to test the understanding of the student.  For that, he provides a number.  He wants the students 
+to tell him that number is a factorial of which number.
 
 Example : If Tom provides the number as 120, the student should answer as 5 because 5! = 120.
 
