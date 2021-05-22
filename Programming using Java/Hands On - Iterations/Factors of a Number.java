@@ -1,6 +1,7 @@
 /*
 
-Betsy  teaches her daughter  to find the factors of a given number.  When she provides a number to her daughter, she should tell the factors of that number.  Help her to do this, by writing a program.
+Betsy  teaches her daughter  to find the factors of a given number.  When she provides a number to her daughter, she should tell the factors of that number. Help her to 
+do this, by writing a program.
 
 Write a class FindFactor.java and write the main method in it.
 
