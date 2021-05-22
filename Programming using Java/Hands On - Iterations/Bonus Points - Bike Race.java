@@ -1,5 +1,9 @@
 /*
-There is an app for  bike race which provides bonus points for the  player.  In this app the player has to play the race and on completion, the total kilometers travelled by the player is calculated. Based on this distance travelled, the product of digits in the odd position and also product of digits in the even position is calculated.  Whichever is highest, that is the bonus points given to the user.   If the product of odd and even position digits are same, then the player should receive double the product as bonus.
+
+There is an app for  bike race which provides bonus points for the  player.  In this app the player has to play the race and on completion, the total kilometers travelled 
+by the player is calculated. Based on this distance travelled, the product of digits in the odd position and also product of digits in the even position is calculated.  
+Whichever is highest, that is the bonus points given to the user.   If the product of odd and even position digits are same, then the player should receive double the product
+as bonus.
 
 Example : If the distance travelled  is 5632
 Product of digits in odd position = 5 * 3 = 15
