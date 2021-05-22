@@ -1,0 +1,33 @@
+Create a class Department with the following private member variables:
+  int did
+  String dname
+Include appropriate getters and setters method in Department class.
+
+Create a class Student with the following private member variables:
+  int sid
+  String sname
+  Department department
+Include appropriate getters and setters method in Student class.
+
+Create a TestMain class which has main method.
+
+In addition to main method, create a method:
+  public static Student createStudent() -  All input as shown in the sameple input should be got in this method. Set the values to the Student object and return that object.
+
+Note : In main method, invoke the createStudent method and print the details of the object returned by that method.
+
+Sample Input 1:
+Enter the Department id:
+100
+Enter the Department name:
+Computerscience
+Enter the Student id:
+123
+Enter the Student name:
+sudha
+
+Sample Output 1:
+Department id:100
+Department name:Computerscience
+Student id:123
+Student name:sudha
