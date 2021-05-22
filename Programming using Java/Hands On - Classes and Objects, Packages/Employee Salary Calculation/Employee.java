@@ -8,25 +8,25 @@ public class Employee {
         return employeeId;
     }
     public void setEmployeeId(int employeeId) {
-        this.employeeId=employeeId;
+        this.employeeId = employeeId;
     }
     public String getEmployeeName() {
         return employeeName;
     }
     public void setEmployeeName(String employeeName) {
-        this.employeeName=employeeName;
+        this.employeeName = employeeName;
     }
     public double getSalary() {
         return salary;
     }
     public void setSalary(double salary) {
-        this.salary=salary;
+        this.salary = salary;
     }
     public double getNetSalary() {
         return netSalary;
     }
     public void setNetSalary(double netSalary) {
-        this.netSalary=netSalary;
+        this.netSalary = netSalary;
     }
     public void display() {
         System.out.println("Id :"+employeeId);
@@ -35,7 +35,7 @@ public class Employee {
         System.out.println("\nNet Salary : "+netSalary);
     }
     public void calculateNetSalary(int pfpercentage) {
-        double d=salary*pfpercentage*0.01;
+        double d = salary*pfpercentage*0.01;
         setNetSalary(salary-d);
     }
 }
