@@ -1,0 +1,16 @@
+Get  a date as String from user. Check if that date is a valid date using SimpleDateFormat.
+Date entered by the user is in the format dd/MM/yyyy.
+If the given date is valid then display  “<Date> is a valid date”. Else display “<Date> is not a valid date”.
+
+Sample Input 1
+31/08/2020
+
+Sample Output 1
+31/08/2020 is a valid date
+
+
+Sample Input 2
+31/11/2020
+
+Sample Output 2
+31/11/2020 is not a valid date
