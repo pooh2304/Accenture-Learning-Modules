@@ -9,7 +9,6 @@ Note :
     If the input provided is negative, ignore the sign and provide the output. If the input is zero
     If the input is zero the output should be “No Factors”.
 
-
 Sample Input 1 :
 54
 
