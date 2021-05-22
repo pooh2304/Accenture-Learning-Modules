@@ -1,7 +1,9 @@
 /*
 
-Tom  is given an assignment by this teacher.  He provides him the length of the sides of a triangle and  asks if they form the sides of the triangle.
-If yes, the output should be , “Sides form a Triangle”.  If not, the output should be “Sides does not form a Triangle”.  All the sides should be greater than zero.  If any side is less than or equal to zero the output should be “Invalid Input”.
+Tom is given an assignment by this teacher. He provides him the length of the sides of a triangle and  asks if they form the sides of the triangle. If yes, the output 
+should be , “Sides form a Triangle”. If not, the output should be “Sides does not form a Triangle”. All the sides should be greater than zero. If any side is less than 
+or equal to zero the output should be “Invalid Input”.
+
 Note :  The rule for a triangle is sum of the length of any two sides [taken in any manner] of a triangle should be greater than the length of the third side.
 
 Sample Input 1:

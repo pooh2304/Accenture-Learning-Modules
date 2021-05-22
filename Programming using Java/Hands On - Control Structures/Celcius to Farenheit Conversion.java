@@ -1,8 +1,8 @@
 /*
 
-Write a program to convert  Celsius to Farenheit.  Display the result correct to 1 decimal.
+Write a program to convert Celsius to Farenheit. Display the result correct to 1 decimal.
 Create a class "CelsiusConversion.java" and write the main method.
-Hint : 5 * (F – 32) = 9 * C,  F-Farenheit , C- Celsius
+Hint : 5 * (F – 32) = 9 * C,  F - Farenheit , C - Celsius
 
 Sample Input  1 :
 80

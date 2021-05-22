@@ -1,6 +1,7 @@
 /*
 
-In a company named Micky software solution, many part-time employees are working for a pay of Rs. 100 per hour. Write a program to calculate the total amount an employee earns in a year by working part time. Consider employees should work all day in the year and year has 365 days.
+In a company named Micky software solution, many part-time employees are working for a pay of Rs. 100 per hour. Write a program to calculate the total amount an employee
+earns in a year by working part time. Consider employees should work all day in the year and year has 365 days.
 Note : The hour should be a positive value less than or equal to 24, if fails display "Unable to calculate the earnings"
 
 Sample Input 1:
