@@ -24,7 +24,6 @@ public class SkeletonValidator {
 	private static final Logger LOG = Logger.getLogger("SkeletonValidator");
 
 	protected final boolean validateClassName(String className) {
-
 		boolean iscorrect = false;
 		try {
 			Class.forName(className);
