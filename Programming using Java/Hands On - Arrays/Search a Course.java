@@ -1,6 +1,7 @@
 /*
 
-IIHT institution is offering a variety of courses to students. Students have a facility to check whether a particular course is available in the institution. Write a program to help the institution accomplish this task. If the number is less than or equal to zero display "Invalid Range".
+IIHT institution is offering a variety of courses to students. Students have a facility to check whether a particular course is available in the institution. 
+Write a program to help the institution accomplish this task. If the number is less than or equal to zero display "Invalid Range".
 
 Assume maximum number of courses is 20.
 
