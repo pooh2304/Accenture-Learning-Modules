@@ -2,7 +2,8 @@
 
 Write a program to find the numerological value for a given name.
 
-Note: Store the numerological number and the corresponding character in a 2-D array(2*26). Always the given  name should be in capital case ,else the name is not valid. Check for the valid name,if the name is invalid print the message "Invalid name".There should not be any space in the name provided.
+Note: Store the numerological number and the corresponding character in a 2-D array(2*26). Always the given  name should be in capital case ,else the name is not valid. 
+Check for the valid name,if the name is invalid print the message "Invalid name".There should not be any space in the name provided.
 
 For example:
 A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
