@@ -1,0 +1,29 @@
+Write a java program to retrieve the player details based on the player id from the array of player objects.
+
+You are provided with the class Player with private attributes such as int playerId, String playerName, int age, long phoneNumber with the necessary setters & getters and a 
+four argument constructor.
+
+Include a class PlayerUtility with the method public Player findPlayerDetailsById(Player[] arr, int playerIdToSearch) that accepts an array of player objects and playerId 
+to be searched as an argument. This method should iterate the array of player objects and find the details of the player for the playerId passed as an argument and return 
+the player object. If the playerId is not found then this method should return null.
+
+In the Main class, you are provided with the main method and the details of the player added into the array.
+
+You need to get the playerId to be searched and call the findPlayerDetailsById method and display the player details as shown in the sample input and output. If the returned
+value is null, then this method should display “No player found”.
+
+Sample Input 1:
+Enter the id to be searched
+168
+
+Sample Output 1:
+Name:Christy
+Phone number:9856471230
+
+
+Sample Input 2:
+Enter the id to be searched
+1059
+
+Sample Output 2:
+No player found
