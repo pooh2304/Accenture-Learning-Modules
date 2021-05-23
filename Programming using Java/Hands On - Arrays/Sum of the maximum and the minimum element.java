@@ -1,6 +1,7 @@
 /*
 
-Anjali gets n numbers in an array. Write a Java program to print the sum of the maximum and the minimum element in the array.If the size of an array is 0 or less print "Invalid Array Size".
+Anjali gets n numbers in an array. Write a Java program to print the sum of the maximum and the minimum element in the array.If the size of an array is 0 or less print 
+"Invalid Array Size".
 
 Sample Input 1:
 Enter the size of an array:
