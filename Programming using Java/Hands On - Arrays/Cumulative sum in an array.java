@@ -1,6 +1,7 @@
 /*
 
-Raghavi wants to write Java program to find the cumulative sum of the array with a given set of values.Input consist of integers .If the size of an array is zero or lesser then display the message as "Invalid Range". Print the output in the format which is provided in sample output .
+Raghavi wants to write Java program to find the cumulative sum of the array with a given set of values.Input consist of integers .If the size of an array is zero or lesser
+then display the message as "Invalid Range". Print the output in the format which is provided in sample output .
 
 Assume maximum size of array is 20,
 
