@@ -1,6 +1,7 @@
 /*
 
-One of the least Insurance agencies recruited employees for their collection department. Now the HR needs a report as the average age of all the employees working in that department. Write a code to calculate the average age.
+One of the least Insurance agencies recruited employees for their collection department. Now the HR needs a report as the average age of all the employees working in that
+department. Write a code to calculate the average age.
 
 Implement a method "calculateAverage(int[] age)" to calculate the average age and return the result to the caller function.
 
