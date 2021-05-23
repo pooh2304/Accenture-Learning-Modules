@@ -1,5 +1,7 @@
 /*
-Anjali wants to write a Java program to find the sum of the corresponding elements in 2 arrays.If the size of the first array is larger then the third array size should be size of first array otherwise the third array size is the second array size , then add all the elements  store it in third array and print the array.If the size is 0 or less print "Invalid array size".
+Anjali wants to write a Java program to find the sum of the corresponding elements in 2 arrays.If the size of the first array is larger then the third array size should 
+be size of first array otherwise the third array size is the second array size , then add all the elements  store it in third array and print the array.
+If the size is 0 or less print "Invalid array size".
 
 Sample Input 1:
 Enter the size of first array:
