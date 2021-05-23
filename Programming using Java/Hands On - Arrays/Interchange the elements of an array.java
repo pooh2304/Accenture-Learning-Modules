@@ -1,6 +1,7 @@
 /*
 
-Write a Java program to interchange the elements of an array with the elements of another array without using the third array.If the array size differs display "Unable to swap size differs".If the range is lesser or equal to Zero . Display "Invalid range "
+Write a Java program to interchange the elements of an array with the elements of another array without using the third array.If the array size differs display "Unable 
+to swap size differs".If the range is lesser or equal to Zero . Display "Invalid range "
 
 Assume the maximum size of array is 20.
 
