@@ -1,6 +1,8 @@
 /*
 
-Anju wants to write a Java program to duplicate an element from a set of elements.Get the array size and elements .Get the position of the element to be replicated at the end of the array.If the position given is greater than the size of an array display the message as "Position is greater than the size of an array".If the size of the array is zero or lesser then display the message "Invalid array size".Please help her out for solving the above scenario .
+Anju wants to write a Java program to duplicate an element from a set of elements.Get the array size and elements .Get the position of the element to be replicated at 
+the end of the array.If the position given is greater than the size of an array display the message as "Position is greater than the size of an array".
+If the size of the array is zero or lesser then display the message "Invalid array size".Please help her out for solving the above scenario .
 
 Sample Input 1:
 Enter the size of an array:
