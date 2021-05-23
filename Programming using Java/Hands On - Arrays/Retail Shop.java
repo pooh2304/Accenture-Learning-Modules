@@ -6,7 +6,7 @@ Create a Class Shop with the private attributes shopName, shopAddress, products(
 getter and setter method if needed.
 
 Write the following method in the class:
-boolean checkProductAvailability(String productname) - this method should take the product name as argument and check whether that product is available in the shop or not. 
+boolean checkProductAvailability(String productname) - this method should take the product name as argument and check whether that product is available in the shop or not.
                                                        If the product is available, function should return true, else return false.
 
 Write the main method to test the application.
