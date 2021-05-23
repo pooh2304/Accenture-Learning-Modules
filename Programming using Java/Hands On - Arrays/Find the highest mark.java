@@ -1,6 +1,7 @@
 /*
 
-Raj is a professor who handles Mathematics ,he wants to conduct evaluation for the students.He wants to find the highest mark among the students to give the proficiency .Write a Java program to help Raj. (Assume 6 set of marks provided always)
+Raj is a professor who handles Mathematics ,he wants to conduct evaluation for the students.He wants to find the highest mark among the students to give the proficiency.
+Write a Java program to help Raj. (Assume 6 set of marks provided always)
 
 Sample Input 1 :
 89
