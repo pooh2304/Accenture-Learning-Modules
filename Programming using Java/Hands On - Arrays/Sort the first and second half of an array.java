@@ -1,6 +1,7 @@
 /*
 
-Anjali likes to play mathematical tricky games .She gets n numbers for an array. Help Anjali to write a Java program to sort the first half of the array in ascending order and the second half of the array in descending order. If the size of the array is 0 or lesser then display the message as "Array size should be greater than 0".
+Anjali likes to play mathematical tricky games .She gets n numbers for an array. Help Anjali to write a Java program to sort the first half of the array in ascending order
+and the second half of the array in descending order. If the size of the array is 0 or lesser then display the message as "Array size should be greater than 0".
 
 Sample Input 1:
 Enter the size of an array:
