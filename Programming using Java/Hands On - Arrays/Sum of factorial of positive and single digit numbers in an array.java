@@ -1,6 +1,7 @@
 /*
 
-Write a java program to find the sum of factorial of the numbers in an array. Consider the number for finding the factorial only if it is positive and single digit.  If not print "No positive and single digit numbers found in an array".
+Write a java program to find the sum of factorial of the numbers in an array. Consider the number for finding the factorial only if it is positive and single digit.  
+If not print "No positive and single digit numbers found in an array".
 
 Example if the array is {2,-7,14,-24,41,5} the output should be 122
 
