@@ -1,5 +1,5 @@
-Get the input  of  product name and price and print the same. The price should be greater than or equal to 100. If valid print the product details. Else throw a user defined 
-exception, InvalidPriceException with the message “InvalidPriceException - Product price invalid”. Print this message using getMessage method.
+Get the input  of  product name and price and print the same. The price should be greater than or equal to 100. If valid print the product details. Else throw a user 
+defined exception, InvalidPriceException with the message “InvalidPriceException - Product price invalid”. Print this message using getMessage method.
 
 For this, you are provided with a public class InvalidPriceException. This class should inherit the Exception class and write a single argument constructor (String) which 
 needs to be set to the message of super class.
