@@ -1,3 +1,21 @@
+/*
+
+Write a Java program to create a new tree set, add some vegetables (String) and print out the collection.
+
+Note: Import only required classes
+
+Sample Input / Output:
+Enter number of elements to add
+4
+Carrot
+Cauliflower
+Broccoli
+Mushrooms
+
+[Broccoli, Carrot, Cauliflower, Mushrooms]
+
+*/
+
 import java.util.*;
 
 public class UserInterface {
