@@ -1,0 +1,11 @@
+Create an interface with the name Printer with an abstract method print that returns String and does not take any argument
+
+LaserPrinter should realize the Printer and override the print method which returns the String "Laser Printer Printing".
+
+Note:
+
+Strictly adhere to the problem specification
+
+In the Driver class that has the main method create an object of LaserPrinter and invoke the method print() and display the result
+
+Main method is not tested. 
