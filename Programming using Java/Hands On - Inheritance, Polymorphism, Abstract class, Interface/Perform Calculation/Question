@@ -1,0 +1,27 @@
+Create a public Functional interface, Calculate with the below method:
+  float performCalculation(int a,int b);
+
+Write a public class Calculator with the below methods:
+  public static Calculate  performAddition()  -  The lambda expression  for the performCalculation method must return the sum of the parameters passed.
+  public static Calculate  performSubtraction()  -  The lambda expression  for the performCalculation method must return the difference of the parameters passed.
+  public static Calculate  performProduct()  -  The lambda expression  for the performCalculation method must return the product of the parameters passed.
+  public static Calculate  performDivision()  -  The lambda expression  for the performCalculation method must return the division of the parameters as a / b.
+
+Write the main method in Calculator class.
+  -  Get the values of  a and b. 
+  -  Invoke the static methods in the main to perform the calculation.
+  -  Capture the object of Calculate that is returned by the static method.
+  -  Invoke the performCalculation method for the inputs  received from the user.
+  -  Display the result.
+
+Note  :  Implement all the static methods mentioned above using lambda expression.  Don’t create object for the interface using new keyword.
+
+Sample Input 1 :
+10
+20
+
+Sample Output 1 :
+The sum is 30.0
+The difference is -10.0
+The product is 200.0
+The division value is 0.5
