@@ -1,3 +1,24 @@
+/*
+
+Write a Java program to create a new array list, add some Fruits (String) and iterate through all elements in array list.
+
+Note: Import only required classes
+
+Sample Input / Output:
+Enter number of elements to add
+4
+Apple
+Mango
+Dragon Fruit
+Pineapple
+
+Apple
+Mango
+Dragon Fruit
+Pineapple
+
+*/
+
 import java.util.*;
 
 public class UserInterface {
