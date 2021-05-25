@@ -1,0 +1,66 @@
+Uninor, one of the mobile network operators offers free network for the customers. Before making use of this offer the customer should get enrolled with this network. 
+One customer can get enrolled only once. 
+
+Now, Uninor needs an application to check whether the customer who enrolls already  exists or not. Develop a program to implement the concept by taking the input for two
+customers and compare if they are same.
+
+Create a  public class Customer with the private attributes:
+  String name
+  String panno
+  String emailid
+  int salary
+Include appropriate public getters and setters. 
+
+Write a 4 argument constructor with arguments - name, panno, emailid and salary.
+
+Note :
+  If the emailid and panno are same, then customer is an existing customer.
+  Override the equals method to check  for the existence of customer. 
+
+Create a class Main with the main method. In the main method get the input for 2 customers as shown in the sample input. Compare the 2 objects using the overridden equals
+method and print the output as "Both the objects are equal.", if the objects are equal. Else, display  "Both the objects are not equal."
+
+Refer the samples given, to read and display the data.
+
+Sample Input 1:
+Enter the name:
+John
+Enter the panno:
+abcde1234R
+Enter the emailid:
+john@gmail.com
+Enter the salary:
+20000
+Enter the name:
+Tom
+Enter the panno:
+abcde1234R
+Enter the emailid:
+john@gmail.com
+Enter the salary:
+30000
+
+Sample Output 1:
+Both the objects are equal.
+
+
+Sample Input 2:
+Enter the name:
+John
+Enter the panno:
+abcde1234R
+Enter the emailid:
+john@gmail.com
+Enter the salary:
+20000
+Enter the name:
+Tom
+Enter the panno:
+abcde1234R
+Enter the emailid:
+tom@gmail.com
+Enter the salary:
+30000
+
+Sample Output 2:
+Both the objects are not equal.

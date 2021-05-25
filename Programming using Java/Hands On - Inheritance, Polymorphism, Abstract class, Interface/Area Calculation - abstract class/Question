@@ -1,0 +1,54 @@
+You are asked to create an application that calculates area for various shapes.
+
+Create a class Shape and declare a public method double calculateArea() (as abstract). 
+
+Create classes like Circle, Rectangle and Triangle and provide the implementation of calculateArea for all the shapes.
+
+Use the following private attributes
+  For circle : float radius
+  For Rectangle : float length, float breadth
+  For Triangle : float base, float height;
+  
+Create a class Main, where we do all the input and output operations. Display the area correct to 2 decimal places.
+
+Write the constructor for these classes as :
+  For Circle - 1 argument constructor that takes radius as parameter
+  For Rectangle - 2 argument constructor that takes length and breadth as parameter
+  For Triangle - 2 argument constructor that takes base and height as parameter
+
+Note : Use Math.PI to take the PI value to calculate the area of circle.
+
+Refer the Sample input and output.
+
+Sample Input 1: 
+Enter the shape :
+Circle
+Enter the radius :
+6
+
+Sample Output 1:
+The area of Circle is : 113.10
+
+
+Sample Input 2:
+Enter the type of shape :
+Rectangle
+Enter the length :
+21
+Enter the breadth :
+15
+
+Sample Output 2:
+The area of Rectangle is : 315.00
+
+
+Sample Input 3:
+Enter the type of shape :
+Triangle
+Enter the base :
+14
+Enter the height :
+10
+
+Sample Output 3:
+The area of Triangle is : 70.00
