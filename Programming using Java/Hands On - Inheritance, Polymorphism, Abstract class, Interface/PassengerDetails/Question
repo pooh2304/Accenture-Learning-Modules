@@ -1,7 +1,7 @@
-Indian Railways is a state owned national transporter, responsible for rail transport in India. It is owned and operated by the Government of India through the Ministry of
-Railways. Railway ticket generation  happens using dot matrix printer. For example, the reservation chart that is stuck outside the train, has multiple copies. One copy goes
-to the head office, one to the ticket checker, one on the platform and one the train. The multiple copies are printed simultaneously and with the help of the dot matrix 
-printer.
+Indian Railways is a state owned national transporter, responsible for rail transport in India. It is owned and operated by the Government of India through the Ministry 
+of Railways. Railway ticket generation  happens using dot matrix printer. For example, the reservation chart that is stuck outside the train, has multiple copies. 
+One copy goes to the head office, one to the ticket checker, one on the platform and one the train. The multiple copies are printed simultaneously and with the help of the 
+dot matrix printer.
 
 Create an application which is used to print the passengers details.
 
