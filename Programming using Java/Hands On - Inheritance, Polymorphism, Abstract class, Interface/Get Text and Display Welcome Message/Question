@@ -1,0 +1,24 @@
+Create a public interface DisplayText with the below method:
+  public void displayText(String text);
+Annotate the above interface using  appropriate annotation. 
+Note, this interface has only one abstract method.
+
+Write a default method :
+  public default String getInput()  -  This method should get a message from the user. (Use Scanner to get the input).
+       
+Write a public class Main with the below static method. 
+  public static DisplayText welcomeMessage() -  In this method implement the lambda expression to print the text received as parameter in the displayText method as 
+                                                “Welcome <text>”. 
+
+Write a main method.
+- Invoke the above static method. 
+- Using that reference invoke the default method getInput.
+- Store that String in a variable. 
+- Invoke the displayText method by passing this String as parameter.
+- The output should be as shown in the sample data below.
+
+Sample Input 1 :
+Watson
+
+Sample Output 1 :
+Welcome Watson
