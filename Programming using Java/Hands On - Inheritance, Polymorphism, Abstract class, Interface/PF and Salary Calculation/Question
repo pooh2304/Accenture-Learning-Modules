@@ -1,0 +1,52 @@
+EPFO is the world's largest Social Security Organisation in terms of clientele and the volume of financial transactions undertaken. At present it maintains more than 
+10 crore accounts pertaining to its members across 122 locations in India. The regional office of Tamilnadu wants to maintain the provident fund details of the employee 
+who has been working as full time (permanent),so that it would be easy to claim the PF online.Help them to calculate pf. 
+
+Create a public class Employee with the following private variables:
+  String name
+  float salary
+  float netsalary
+Write the necessary public getters and setters.
+
+Create a public class PermanentEmployee (which should inherit Employee) with the following private varibles:
+  float pfpercentage
+  float pfamount
+Write the necessary public getters and setters.
+
+Implement a method void findNetSalary() in the PermanentEmployee class which calculates pfamount and deduct it from the salary to find the net salary and set the pf amount
+and netsalary to the attribute.
+
+Salary should not be less than or equal to zero and pf % should be a valid positive number,it can be zero. 
+
+Ensure the values given meet the criteria using the method boolean validateInput(), which has to be defined inside the class PermanentEmployee. Check for the salary and 
+pf percentage validity.  If valid, return true.  Else, return false.
+
+Create a class Main and write the main method.
+
+In the main method, before invoking the findNetSalary method, validate the input by invoking the validateInput method.  If the input is invalid display error message as 
+"Error!!!  Unable to calculate the NetSalary." else display the net salary as shown in the sample.
+
+Sample Input 1:
+Enter the name:
+Sudha
+Enter the salary:
+20000
+Enter the pfpercentage:
+7.5
+
+Sample Output 1:
+Employee Name:Sudha
+PF Amount:1500.00
+Netsalary:18500.00
+
+
+Sample Input 2:
+Enter the name:
+Polson
+Enter the salary:
+25000
+Enter the pfpercentage:
+-1.5
+
+Sample Output 2:
+Error!!! Unable to calculate the NetSalary.
